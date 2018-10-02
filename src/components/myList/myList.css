@@ -1,0 +1,32 @@
+a {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.my-list {
+  max-width: 956px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 122px;
+}
+
+.title {
+  font-size: 36px;
+  font-family: Roboto;
+  color: black;
+  padding-top: 35px;
+}
+
+.mapping-type {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 27px;
+}
+
+.mapping-type :nth-child(1) {
+  margin-right: 12px;
+}
